@@ -56,12 +56,12 @@ export function abridgeScore(score: number): string {
 export const CONSTANTS = {
   CACHE_MAX_AGE: 7200,
   DEFAULT_PANEL_SIZE: 110,
-  DEFAULT_MAX_COLUMN: 6,
+  DEFAULT_MAX_COLUMN: 8,
   DEFAULT_MAX_ROW: 3,
   DEFAULT_MARGIN_W: 0,
   DEFAULT_MARGIN_H: 0,
   DEFAULT_NO_BACKGROUND: false,
-  DEFAULT_NO_FRAME: false,
+  DEFAULT_NO_FRAME: true,
 };
 
 export enum RANK {
